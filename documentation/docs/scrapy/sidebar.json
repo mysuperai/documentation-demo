@@ -1,0 +1,221 @@
+{
+  "items": [
+    "scrapy/conftest",
+    {
+      "items": [
+        "scrapy/scrapy/link",
+        "scrapy/scrapy/interfaces",
+        "scrapy/scrapy/robotstxt",
+        "scrapy/scrapy/dupefilters",
+        "scrapy/scrapy/pqueues",
+        "scrapy/scrapy/shell",
+        "scrapy/scrapy/logformatter",
+        "scrapy/scrapy/spiderloader",
+        "scrapy/scrapy/resolver",
+        "scrapy/scrapy/responsetypes",
+        "scrapy/scrapy/exceptions",
+        "scrapy/scrapy/exporters",
+        "scrapy/scrapy/signalmanager",
+        "scrapy/scrapy/middleware",
+        "scrapy/scrapy/item",
+        "scrapy/scrapy/crawler",
+        {
+          "items": [
+            "scrapy/scrapy/linkextractors/lxmlhtml"
+          ],
+          "label": "scrapy.linkextractors",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/downloadermiddlewares/cookies",
+            "scrapy/scrapy/downloadermiddlewares/useragent",
+            "scrapy/scrapy/downloadermiddlewares/ajaxcrawl",
+            "scrapy/scrapy/downloadermiddlewares/httpauth",
+            "scrapy/scrapy/downloadermiddlewares/decompression",
+            "scrapy/scrapy/downloadermiddlewares/redirect",
+            "scrapy/scrapy/downloadermiddlewares/retry",
+            "scrapy/scrapy/downloadermiddlewares/httpcompression"
+          ],
+          "label": "scrapy.downloadermiddlewares",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/settings/__init__"
+          ],
+          "label": "scrapy.settings",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/selector/unified"
+          ],
+          "label": "scrapy.selector",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/core/scraper",
+            "scrapy/scrapy/core/engine",
+            "scrapy/scrapy/core/scheduler",
+            {
+              "items": [
+                "scrapy/scrapy/core/downloader/__init__",
+                "scrapy/scrapy/core/downloader/webclient",
+                "scrapy/scrapy/core/downloader/tls",
+                "scrapy/scrapy/core/downloader/contextfactory",
+                {
+                  "items": [
+                    "scrapy/scrapy/core/downloader/handlers/http11",
+                    "scrapy/scrapy/core/downloader/handlers/http10"
+                  ],
+                  "label": "scrapy.core.downloader.handlers",
+                  "type": "category"
+                }
+              ],
+              "label": "scrapy.core.downloader",
+              "type": "category"
+            },
+            {
+              "items": [
+                "scrapy/scrapy/core/http2/protocol",
+                "scrapy/scrapy/core/http2/stream",
+                "scrapy/scrapy/core/http2/agent"
+              ],
+              "label": "scrapy.core.http2",
+              "type": "category"
+            }
+          ],
+          "label": "scrapy.core",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/contracts/__init__",
+            "scrapy/scrapy/contracts/default"
+          ],
+          "label": "scrapy.contracts",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/spiders/__init__",
+            "scrapy/scrapy/spiders/sitemap",
+            "scrapy/scrapy/spiders/feed",
+            "scrapy/scrapy/spiders/init"
+          ],
+          "label": "scrapy.spiders",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/pipelines/files",
+            "scrapy/scrapy/pipelines/media",
+            "scrapy/scrapy/pipelines/images"
+          ],
+          "label": "scrapy.pipelines",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/utils/deprecate",
+            "scrapy/scrapy/utils/gz",
+            "scrapy/scrapy/utils/misc",
+            "scrapy/scrapy/utils/console",
+            "scrapy/scrapy/utils/reactor",
+            "scrapy/scrapy/utils/curl",
+            "scrapy/scrapy/utils/signal",
+            "scrapy/scrapy/utils/log",
+            "scrapy/scrapy/utils/conf",
+            "scrapy/scrapy/utils/sitemap",
+            "scrapy/scrapy/utils/boto",
+            "scrapy/scrapy/utils/request",
+            "scrapy/scrapy/utils/response",
+            "scrapy/scrapy/utils/httpobj",
+            "scrapy/scrapy/utils/test",
+            "scrapy/scrapy/utils/url",
+            "scrapy/scrapy/utils/datatypes",
+            "scrapy/scrapy/utils/engine",
+            "scrapy/scrapy/utils/defer",
+            "scrapy/scrapy/utils/iterators",
+            "scrapy/scrapy/utils/python",
+            "scrapy/scrapy/utils/template",
+            "scrapy/scrapy/utils/reqser",
+            "scrapy/scrapy/utils/ossignal",
+            "scrapy/scrapy/utils/trackref",
+            "scrapy/scrapy/utils/ftp",
+            "scrapy/scrapy/utils/spider",
+            "scrapy/scrapy/utils/project",
+            "scrapy/scrapy/utils/decorators"
+          ],
+          "label": "scrapy.utils",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/extensions/feedexport",
+            "scrapy/scrapy/extensions/logstats",
+            "scrapy/scrapy/extensions/spiderstate",
+            "scrapy/scrapy/extensions/httpcache"
+          ],
+          "label": "scrapy.extensions",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/loader/__init__",
+            "scrapy/scrapy/loader/common"
+          ],
+          "label": "scrapy.loader",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/http/cookies",
+            "scrapy/scrapy/http/headers",
+            {
+              "items": [
+                "scrapy/scrapy/http/response/__init__",
+                "scrapy/scrapy/http/response/text"
+              ],
+              "label": "scrapy.http.response",
+              "type": "category"
+            },
+            {
+              "items": [
+                "scrapy/scrapy/http/request/__init__"
+              ],
+              "label": "scrapy.http.request",
+              "type": "category"
+            }
+          ],
+          "label": "scrapy.http",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/spidermiddlewares/referer",
+            "scrapy/scrapy/spidermiddlewares/offsite",
+            "scrapy/scrapy/spidermiddlewares/httperror"
+          ],
+          "label": "scrapy.spidermiddlewares",
+          "type": "category"
+        },
+        {
+          "items": [
+            "scrapy/scrapy/commands/__init__",
+            "scrapy/scrapy/commands/genspider",
+            "scrapy/scrapy/commands/shell"
+          ],
+          "label": "scrapy.commands",
+          "type": "category"
+        }
+      ],
+      "label": "scrapy",
+      "type": "category"
+    }
+  ],
+  "label": "scrapy",
+  "type": "category"
+}
